@@ -1,0 +1,148 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background:white;
+}
+
+.announcement {
+    background: rgb(91, 162, 243);
+    color: cornsilk;
+    text-align: center;
+    font-size: 18px;
+    line-height: 16px;
+
+    margin: 0;
+    padding: 0.1px;
+}
+
+.announcement a{
+    color: cornsilk;
+}
+
+.first {
+    list-style: none;
+    background-color: rgb(230, 227, 227);
+    text-align: left;
+    margin: 0;
+    padding: 1px;
+    padding-left: 180px;
+    height: 26px;
+}
+
+.first li {
+    display: inline-block;
+}
+
+.first a{
+    text-decoration: none;
+    color: rgb(196, 196, 196);
+    line-height: 0pt;
+    display: block;
+    padding: 15px;
+    font-size: 12px;
+}
+
+.left-nav {
+    padding-left: 180px;
+}
+
+.interbank-logo img {
+    float: left;
+    width: 150px;
+}
+
+.second {
+    float: left;
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 1px;
+    height: 30px;
+}
+
+.second li {
+    display: inline-block;
+}
+
+.second a{
+    text-decoration: none;
+    color: black;
+    line-height: 0pt;
+    display: block;
+    padding: 15px;
+    padding-left: 22px;
+    padding-top: 14px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.searcher {
+    padding-top: 10px;
+}
+
+.lupa-logo img{
+    float: left;
+    width: 30px;
+    padding-left: 100px;
+}
+
+.search {
+    float: left;
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 5px;
+    padding-top: 1px;
+    padding-left: 30px;
+    height: 30px;
+    
+}
+
+.search li{
+    display: inline-block;
+}
+
+.search a{
+    text-decoration: none;
+    color: white;
+    line-height: 0pt;
+    display: block;
+    padding: 15px 20px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.search .open-account{
+    padding: 15px 20px;
+    background:rgb(0, 209, 56);
+}
+
+.search .internet-bank{
+    background:rgb(0, 12, 140);
+}
+
+.main-picture img{
+    width: 100%;
+}
+
+.products {
+    text-align: center;
+}
+
+.products .first-title {
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color:rgb(113, 182, 241) ;
+    font-size: 14px;
+
+    padding-top: 50px;
+}
+
+.products .second-title {
+    font-family: Verdana, Arial, Helvetica, sans-serif;;
+    font-size: 34px;
+    font-weight: normal;
+
+    margin-top: 20px;
+}

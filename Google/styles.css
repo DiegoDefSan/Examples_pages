@@ -1,0 +1,155 @@
+body {
+    width: 100%;
+    margin: 0;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.top {
+    display: block;
+    padding: 20px;
+
+    font-size: 13px;
+}
+
+.email {
+    text-align: right;
+}
+
+.email span{
+    padding: 10px;
+}
+
+.email span a {
+    color: black;
+    text-decoration: none;
+}
+
+.email span img {
+    width: 20px;
+}
+
+.email #buttom  a {
+    padding: 10px 20px;
+    border-radius: 4px;
+
+
+    color: white;
+    background-color: rgb(26, 115, 232);
+} 
+
+main {
+    padding-bottom: 180px;
+}
+
+.google-logo img{
+    width: 20%;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    min-width: 300px;
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input {
+    width: 30%;
+    height: 25px;
+    min-width: 350px;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
+
+.buttoms {
+    padding: 35px 10px;
+    min-width: 330px;
+    display: flex;
+    justify-content: center;
+}
+
+.buttoms a {
+    padding: 10px 10px;
+    margin: 0px 10px;
+    border-radius: 2px;
+
+    background-color: rgb(248, 249, 250);
+    color: black;
+    text-decoration: none;
+}
+
+.languages {
+    padding: 8px 30%;
+    display: flex;
+    justify-content: center;
+}
+
+.languages span {
+    font-size: 13px;
+}
+
+.languages a{
+    text-decoration: none;
+}
+
+footer {
+    background-color: rgb(242, 242, 242);
+    height: 120px;
+    color: rgb(138, 138, 138);
+    font-size: 15px;
+}
+
+.country {
+    padding: 5px 28px;
+    padding-top: 12px;
+}
+
+.options {
+    padding-top: 10px;
+}
+
+.left-ul {
+    float: left;
+    list-style: none;
+    margin: 0;
+    
+}
+
+.left-ul li {
+    display: inline-block;
+}
+
+.left-ul a{
+    text-decoration: none;
+    color: rgb(138, 138, 138);
+    font-size: 14px;
+    padding: 10px;
+}
+
+.left-ul a:first-child{
+    padding-left: 0px;
+}
+
+.right-ul {
+    float: right;
+    list-style: none;
+    margin: 0;
+}
+
+.right-ul li {
+    display: inline-block;
+}
+
+.right-ul a{
+    text-decoration: none;
+    color: rgb(138, 138, 138);
+    font-size: 14px;
+    padding: 10px;
+    padding-right: 30px;
+}
+
+
+
+
