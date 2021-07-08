@@ -6,6 +6,7 @@ body {
 
 .header {
     padding: 20px;
+    height: 10%;
 
     font-size: 20px;
     background-color: rgb(243, 133, 133);
@@ -50,6 +51,31 @@ body {
 .right-nav input {
     height: 16px;
     padding-left: 15px 5px;
+}
+
+main {
+    background-color: aqua;
+    height: 80%;
+    margin: 10px;
+    width: 98%;
+
+    display: flex;
+}
+
+.left-panel {
+    margin: 10px;
+    width: 65%;
+    padding: 0px 15px;
+
+    background-color: blue;
+}
+
+.right-panel {
+    margin: 10px;
+    width: 35%;
+    padding: 10px;
+
+    background-color: blueviolet;
 }
 
 
