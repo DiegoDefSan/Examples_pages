@@ -1,0 +1,129 @@
+body {
+    width: 100%;
+    margin: 0;
+}
+
+header {
+    padding: 3%;
+    padding-bottom: 8px;
+    display: block;
+    min-width: 670px;
+}
+
+.h-1 {
+    display: flex;
+}
+
+.patapata-logo {
+    float: left;
+}
+
+.logo-link img {
+    width: 110px;
+}
+
+.sns .site img {
+    width: 25px;
+    padding: 0px 5px;
+}
+
+.sns a {
+    text-decoration: none;
+}
+
+.sns {
+    margin-right: 1.5rem;
+}
+
+.right-nav {
+    display: flex;
+    width: 92%;
+    height: 240px;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.nav-bar {
+    display: inline;
+}
+
+.nav-ul-list {
+    list-style: none;
+}
+
+.nav-ul-list li {
+    display: inline-flex;
+}
+
+.nav-ul-list a {
+    text-decoration: none;
+    color: rgb(24, 24, 24);
+    padding: 10px 20px;
+    margin: 5px;
+    display: block;
+
+    font-size: 1rem;
+    font-family: Montserrat, sans-serif;
+    letter-spacing: .2em;
+}
+
+.nav-ul-list a:hover {
+    color: coral;
+}
+
+/* Main */
+
+.img-panel img {
+    object-fit: cover;
+    width: 100%;
+}
+
+/* Footer */
+.foot-img {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.foot-img img {
+    width: 110px;
+    padding-bottom: 10px;
+}
+
+.foot-options {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.foot-options-list li{
+    display: inline-flex;
+    margin: 5px 0px;
+
+    font-family: Montserrat,sans-serif;
+    letter-spacing: .2em;
+}
+
+.foot-options-list a {
+    color: #643a39;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 1em;
+}
+
+.foot-options-list a:hover {
+    color: coral;
+}
+
+.copyright {
+    margin-top: 50px;
+    margin-bottom: 40px;
+
+    font-family: Montserrat,sans-serif;
+    letter-spacing: .3rem;
+    font-size: .8rem;
+    text-align: center;
+    color: #ded4c8;
+}
