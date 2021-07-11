@@ -79,9 +79,230 @@ header {
     width: 100%;
 }
 
+/* Article 1*/
+
+.top-art-1 {
+    margin: 3.5%;
+    display: grid;
+    grid-template-columns: 48% 52%;
+}
+
+.left-text-n-buttons {
+    font-family: "Noto Sans JP";
+    color: #643a39;
+    letter-spacing: .1rem;
+}
+
+.left-text h2 {
+    font-weight: 400;
+    font-size: 31px;
+}
+
+.left-text h2:first-child {
+    padding-top: 30px;
+    margin-bottom: 4px;
+}
+
+.left-text h2:nth-child(2) {
+    margin-top: 0px;
+    padding-bottom: 30px;
+    margin-bottom: 0px;
+}
+
+.left-text p {
+    font-weight: lighter;
+    letter-spacing: 0.1rem;
+    font-size: 1rem;
+    text-align: justify;
+}
+
+.left-text p:nth-child(3) {
+    margin-top: 0px;
+}
+
+.left-text p:nth-child(4) {
+    margin-bottom: 50px;
+}
+
+.right-img img {
+    padding-top: 50px;
+    padding-left: 40px;
+    width: 650px;
+}
+
+.left-buttons a {
+    text-decoration: none;
+    display: grid;
+    width: 100%;
+    max-width: 460px;
+    padding: 15px 0.8rem;
+    grid-template-columns: 1fr 20px;
+    font-size: 1rem;
+    margin: 15px 0px;
+    color: white;
+    background: #efb53c;
+    align-items: center;
+}
+
+.left-buttons a::after {
+    content: "";
+    position:relative;
+    width: 0.8em;
+    height: 0.8em;
+    border-right: 0.1em solid white;
+    border-top: 0.1em solid white;
+    transform: rotate(45deg);
+    margin-right: 0.5em;
+}
+
+.bottom-art-1 {
+    margin-left: 1%;
+    margin-right: 3.5rem;
+    margin-top: 5rem;
+}
+
+.bottom-art-1 ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    column-gap: 120px;
+}
+
+.bottom-art-1 h2 {
+    text-align: center;
+    font-family: Montserrat,sans-serif;
+    font-size: 1.5rem;
+    letter-spacing: .2rem;
+    font-weight: 110;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.bottom-art-1 p {
+    text-align: justify;
+    font-family: "Noto Sans JP";
+    letter-spacing: .2rem;
+    font-weight: 100;
+}
+
+.bottom-art-1 img {
+    width: 270px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Article 2*/
+.art-2 {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.works h2 {
+    text-align: center;
+    font-family: Montserrat,sans-serif;
+    font-size: 2.5rem;
+    letter-spacing: .4rem;
+    font-weight: lighter;
+    color: #ded4c8;
+}
+
+.all-works {
+    list-style: none;
+    padding: 0px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(290px, 300px));
+    gap: 60px;
+    justify-content: center;
+    
+}
+
+.all-works img {
+    width: 310px;
+}
+
+.works-button {
+    display: flex;
+    justify-content: center;
+    margin: 4.5rem 0rem;
+}
+
+.works-button a {
+    text-decoration: none;
+    display: grid;
+    color: white;
+    background-color: #efb53c;
+    padding: 15px .8rem;
+    width: 100%;
+    max-width: 450px;
+    grid-template-columns: 1fr 20px;
+    margin: 15px 0px;
+    align-items: center;
+}
+
+.works-button a::after {
+    content: "";
+    position:relative;
+    width: 0.8em;
+    height: 0.8em;
+    border-right: 0.1em solid white;
+    border-top: 0.1em solid white;
+    transform: rotate(45deg);
+    margin-right: 0.5em;
+}
+
+/* Article 3*/
+.art-3 {
+    margin: 80px 30px;
+}
+
+.information h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    letter-spacing: 0.5rem;
+    font-family: Montserrat,sans-serif;
+    font-weight: 400;
+    color: #ded4c8;
+}
+
+.subts {
+    list-style: none;
+    margin-top: 0.1rem;
+}
+
+.subts li {
+    border-bottom: 1px dashed #f1e8dc;
+}
+
+.subts a {
+    text-decoration: none;
+    color: #643a39;
+    font-family: Montserrat,sans-serif;
+    letter-spacing: .1rem;
+    font-size: 16px;
+}
+
+.documents {
+    display: grid;
+    grid-template-columns: 8rem 1fr;
+    gap: 15px;
+
+    color: #643a39;
+    text-align: left;
+    align-items: center;
+    max-width: 768px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.documents .date {
+    font-weight: bold;
+}
+
 /* Footer */
 .foot-img {
-    height: 400px;
+    height: 290px;
     display: flex;
     justify-content: center;
     align-items: flex-end;
