@@ -1,0 +1,207 @@
+body {
+    width: 100%;
+    margin: 0%;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+}
+
+.main-centre {
+    background-color: #f0f2f5;
+    min-height: 100vh;
+}
+
+.main-register {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 130px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.left-panel {
+    width: 57%;
+    padding: 10px;
+}
+
+.left-panel #paragraph {
+    font-size: 1.8em;
+    margin-top: 10px;
+    margin-left: 0;
+}
+
+.right-panel {
+    width: 394px;
+    min-height: 50vh;
+}
+
+.img-facebook {
+    padding-top: 62px;
+    height: 106px;
+    margin: -28px;
+}
+
+.formul {
+    width: 374px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.formul div {
+    padding: 6px 10px;
+}
+
+.formul input {
+    width: 336px;
+    height: 30px;
+    padding: 0.8rem;
+    border: 1px solid rgba(197, 197, 197, 0.493);
+    border-radius: 8px;
+    color: rgba(197, 197, 197, 0.493);
+    font-size: 1.01rem;
+}
+
+.formul button {
+    width: 362px;
+    padding: 0.8rem;
+    background-color: #1877f2;
+
+    border: 1px solid #1877f2;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+}
+
+.formul a {
+    text-decoration: none;
+    color: #1877f2;
+}
+
+.formul .forget {
+    margin: 5px;
+    font-size: 0.9rem;
+}
+
+hr {
+    width: 100%;
+    display: block; 
+    height: 1px;
+    border: 0; 
+    border-top: 1px solid #ccc;
+    margin: 1em 0; 
+    padding: 0; 
+}
+
+.new-account {
+    margin: 20px;
+}
+
+.new-account a {
+    background-color: rgb(2, 194, 2);
+    color: #fff;
+    padding: 0.8rem;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+}
+
+.additional-text {
+    text-align: center;
+    padding: 5px 10px;
+    font-size: .9rem;
+}
+
+.additional-text a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.additional-text a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 1010px) {
+    .main-centre {
+        width: 100%;
+    }
+
+    .main-register {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        padding-top: 10px;
+    }
+
+    .left-panel {
+        text-align: center;
+        padding-bottom: 42px;
+    }
+
+    .img-facebook {
+        padding-top: 17px;
+        padding-bottom: 14px;
+    }
+
+    .left-panel #paragraph {
+        font-size: 24px;
+        margin: 5px 10px;
+    }    
+}
+
+.foot-page {
+    width: 978px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    font-size: 12px;
+}
+
+.foot-page ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.foot-page li {
+    display: inline-flex;
+    margin-top: 6px;
+}
+
+.foot-page .more-options a {
+    color: rgb(122, 122, 122);
+    text-decoration: none;
+    padding-right: 15px;
+}
+
+.foot-page .languages a {
+    color: rgb(122, 122, 122);
+    text-decoration: none;
+    padding-right: 6px;
+}
+
+.foot-page a:hover {
+    text-decoration: underline;
+}
+
+.copyright {
+    padding-top: 10px;
+    color: rgb(122, 122, 122);
+}
+
+@media (max-width: 1010px) {
+    .foot-page {
+        width: 90%;
+    }
+}
