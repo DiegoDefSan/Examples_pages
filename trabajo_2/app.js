@@ -23,17 +23,18 @@ const users = [
 
 var indexUser;
 
-// document.getElementById('name').innerHTML = `${users[indexUser].name}`;
-// document.getElementById('saldo-actual').innerHTML = `${users[indexUser].amount}`;
+document.getElementById('name').innerHTML = `${users[indexUser].name}`;
+document.getElementById('saldo-actual').innerHTML = `${users[indexUser].amount}`;
 
 function getNameAndPass (username, key) {
     for (let i = 0; i < users.length; i++) {
         if (users[i].name == username && users[i].password == key) {
             indexUser = i;
+            console.log(indexUser);
             console.log(users[i]);
-            return indexUser;
+            return true;
         }
-    } return false
+    } return false;
 }
 
 
@@ -42,7 +43,7 @@ function validacion() {
     var contraseña = document.getElementById("exampleInputPassword").value
     if (getNameAndPass(usuario, contraseña)) {
         window.alert ("Inicio exitoso");
-        window.location.replace("usuario.html");
+        window.location = "usuario.html";
     } else {
         alert ("Ingrese usuario y contraseña válidos");
     }
@@ -55,8 +56,9 @@ const saldo = document.getElementById("saldo-actual");
 
 deposito_btn.addEventListener('click', function(){
     const depositStringToInt = getInputNumb("monto-deposito");
-    if (users[i].amount + depositStringToInt < 990) {
+    if (users[indexUser].amount + depositStringToInt < 990) {
         updateSpanTest("saldo-actual", depositStringToInt);
+        users[indexUser].amount += depositStringToInt;
     } else {
         alert("El saldo total no puede superar los US$990.");
     }
@@ -68,8 +70,10 @@ const retiro_btn = document.getElementById('retirar');
 
 retiro_btn.addEventListener('click', function(){
     const retiroNumb = getInputNumb("monto-retiro");
-    if (users[i].amount - retiroNumb > 10) {
+    console.log(retiroNumb)
+    if (users[indexUser].amount - retiroNumb > 10) {
         updateSpanTest("saldo-actual", -1 * retiroNumb);
+        users[indexUser].amount -= retiroNumb;
     } else {
         alert("El saldo total no puede ser inferior a US$10.");
     }
