@@ -12,13 +12,20 @@
         <div class="main-form">
             <div class="sign-in">Sign in</div>
             <img src="person-icon.png">
+            <div class="em">
+                <p id="error-message">Error!</p>
+            </div>
             <form id="form1">
                 <input id="username" type="text" placeholder="Username">
                 <input id="password" type="password" placeholder="Password">
                 <input id="submit" type="button" value="Sign in" onclick="signIn()">
             </form>
+            <div class="sign-up">
+                <div id="sign-up-text">Don't you have an account?</div> 
+                <div id="sign-up-link"><a href="/Log_page/Sign_up/index.html">Register here</a></div>
+            </div>
         </div>
     </main>
-    <script type="text/javascript" src="app.js"></script>
+    <script type="text/javascript" src="/Log_page/Sign_in/app.js"></script>
 </body>
 </html>

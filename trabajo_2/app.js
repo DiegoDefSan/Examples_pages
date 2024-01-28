@@ -21,7 +21,15 @@ const users = [
     }
 ] 
 
-var indexUser;
+function save_storage(i) {
+    window.localStorage.setItem('indexUser', i)
+}
+
+function obtenerLocalStorage(key='indexUser') {
+    return window.localStorage.getItem(key);
+}
+
+var indexUser = obtenerLocalStorage();
 
 document.getElementById('name').innerHTML = `${users[indexUser].name}`;
 document.getElementById('saldo-actual').innerHTML = `${users[indexUser].amount}`;
@@ -29,14 +37,11 @@ document.getElementById('saldo-actual').innerHTML = `${users[indexUser].amount}`
 function getNameAndPass (username, key) {
     for (let i = 0; i < users.length; i++) {
         if (users[i].name == username && users[i].password == key) {
-            indexUser = i;
-            console.log(indexUser);
-            console.log(users[i]);
+            save_storage(i);
             return true;
         }
     } return false;
 }
-
 
 function validacion() {
     var usuario = document.getElementById("exampleInputUser").value
@@ -44,6 +49,7 @@ function validacion() {
     if (getNameAndPass(usuario, contraseña)) {
         window.alert ("Inicio exitoso");
         window.location = "usuario.html";
+        console.log(obtenerLocalStorage(key='indexUser'));
     } else {
         alert ("Ingrese usuario y contraseña válidos");
     }

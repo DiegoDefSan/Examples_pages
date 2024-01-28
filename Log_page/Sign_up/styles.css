@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgba(0, 0, 0, 0.767);
+}
+
+main {
+    width: 100%;
+    height: 100vh;
+    padding: 50px;
+}
+
+.main-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 450px;
+    height: 600px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 30px;
+    transition: .2s;
+}
+
+.main-form img {
+    width: 150px;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+.main-form .sign-up {
+    font-size: 24px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.main-form form {
+    width: 90%;
+    text-align: center;
+}
+
+.main-form .space {
+    padding: 6px 0;
+}
+
+.main-form form input {
+    width: 98%;
+    padding: 8px 12px;
+    border-radius: 6px;
+    border: 1px solid rgb(119, 118, 118);
+}
+
+.main-form #first-space input {
+    width: 48%;
+    margin: 0 2px;
+}
+
+.main-form #form1 .space:last-child {
+    padding: 15px 0;
+}
+
+.main-form #form1 .space:last-child input {
+    width: 200px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(51, 133, 255);
+    padding: 12px 0;
+    transition: .5s;
+}
+
+.main-form #form1 .space:last-child input:hover {
+    background-color: rgb(22, 91, 196);
+}
+
+.main-form .register-question {
+    text-align: center;
+    margin: 10px;
+    font-size: 16px;
+}
+
+.main-form #sign-up-link a {
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+    transition: .2s;
+}
+
+.main-form #sign-up-link a:hover {
+    font-weight: bold;
+}
+
+
+
